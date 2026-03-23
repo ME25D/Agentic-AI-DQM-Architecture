@@ -23,7 +23,8 @@ graph TD
     WarRoom -->|Consensus Reached| Output[Verified Diagnostic Report]
     WarRoom -->|Conflict| Router
 
-🛡️ Core Mechanisms
+
+ Core Mechanisms
 Role Separation: Each LLM operates under a strict system prompt tailored to its cognitive strengths (e.g., DeepSeek for mathematical logic, Claude for structural review).
 
 Cross-Validation: The 'War Room' engine compares the outputs. If discrepancies exist, the agents enter a feedback loop to resolve conflicts.
